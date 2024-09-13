@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37ECA0009F787B2F03C3A9DE /* Pods_Hired_Valley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732145F4C7B34271E0D1DA62 /* Pods_Hired_Valley.framework */; };
+		43646556DBFF63DD8940412C /* Pods_Hired_ValleyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE48BB6C40FBC8C899382AE /* Pods_Hired_ValleyTests.framework */; };
+		43850DFA2C90559A0001C470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850DF92C90559A0001C470 /* AppDelegate.swift */; };
+		43850DFC2C90559A0001C470 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850DFB2C90559A0001C470 /* SceneDelegate.swift */; };
+		43850DFE2C90559A0001C470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850DFD2C90559A0001C470 /* ViewController.swift */; };
+		43850E032C90559C0001C470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43850E022C90559C0001C470 /* Assets.xcassets */; };
+		43850E062C90559C0001C470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43850E042C90559C0001C470 /* LaunchScreen.storyboard */; };
+		43850E112C90559D0001C470 /* Hired_ValleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E102C90559D0001C470 /* Hired_ValleyTests.swift */; };
+		43850E1B2C90559D0001C470 /* Hired_ValleyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E1A2C90559D0001C470 /* Hired_ValleyUITests.swift */; };
+		43850E1D2C90559D0001C470 /* Hired_ValleyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E1C2C90559D0001C470 /* Hired_ValleyUITestsLaunchTests.swift */; };
+		43850E2C2C9058F00001C470 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E2B2C9058F00001C470 /* UIColor.swift */; };
+		43850E2F2C9068210001C470 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E2E2C9068210001C470 /* UIView.swift */; };
+		43850E322C90697C0001C470 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E312C90697C0001C470 /* OnboardingViewController.swift */; };
+		43850E372C90727A0001C470 /* UIFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E362C90727A0001C470 /* UIFonts.swift */; };
+		43850E392C9092C20001C470 /* Kontora-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43850E332C9071140001C470 /* Kontora-Regular.otf */; };
+		43850E3C2C9092DA0001C470 /* Kontora-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43850E382C908D670001C470 /* Kontora-Extrabold.otf */; };
+		43850E3E2C90972E0001C470 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E3D2C90972E0001C470 /* RegisterViewController.swift */; };
+		43850E402C9225880001C470 /* Textfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E3F2C9225880001C470 /* Textfield.swift */; };
+		43850E422C922CF40001C470 /* Kontora-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43850E412C922CF40001C470 /* Kontora-Medium.otf */; };
+		43850E442C9241EA0001C470 /* Kontora-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43850E432C9241EA0001C470 /* Kontora-Semibold.otf */; };
+		43850E462C931CA40001C470 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43850E452C931CA30001C470 /* SettingsViewController.swift */; };
+		43A73DF52C932111009D48F5 /* HiredValleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73DF42C932111009D48F5 /* HiredValleyViewController.swift */; };
+		43A73E332C932E12009D48F5 /* ProfileOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73E322C932E12009D48F5 /* ProfileOptions.swift */; };
+		43A73E362C9337CD009D48F5 /* SelfSizingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73E352C9337CD009D48F5 /* SelfSizingTableView.swift */; };
+		43A73E382C93382B009D48F5 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73E372C93382B009D48F5 /* ProfileTableViewCell.swift */; };
+		832A223899BACFD7BC7E345D /* Pods_Hired_Valley_Hired_ValleyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056D9C120CDC431489EE4111 /* Pods_Hired_Valley_Hired_ValleyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43850E0D2C90559D0001C470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43850DEE2C90559A0001C470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43850DF52C90559A0001C470;
+			remoteInfo = "Hired Valley";
+		};
+		43850E172C90559D0001C470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43850DEE2C90559A0001C470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43850DF52C90559A0001C470;
+			remoteInfo = "Hired Valley";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056D9C120CDC431489EE4111 /* Pods_Hired_Valley_Hired_ValleyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hired_Valley_Hired_ValleyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C33FBFBA5A12427A6F76C8 /* Pods-Hired Valley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hired Valley.debug.xcconfig"; path = "Target Support Files/Pods-Hired Valley/Pods-Hired Valley.debug.xcconfig"; sourceTree = "<group>"; };
+		21437C9F3A4A3AB3100CFBB3 /* Pods-Hired Valley-Hired ValleyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hired Valley-Hired ValleyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hired Valley-Hired ValleyUITests/Pods-Hired Valley-Hired ValleyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EDF80B0231DA19C775682DC /* Pods-Hired Valley-Hired ValleyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hired Valley-Hired ValleyUITests.release.xcconfig"; path = "Target Support Files/Pods-Hired Valley-Hired ValleyUITests/Pods-Hired Valley-Hired ValleyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FE48BB6C40FBC8C899382AE /* Pods_Hired_ValleyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hired_ValleyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC1157B26721FEEDA45BEEC /* Pods-Hired ValleyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hired ValleyTests.debug.xcconfig"; path = "Target Support Files/Pods-Hired ValleyTests/Pods-Hired ValleyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43850DF62C90559A0001C470 /* Hired Valley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hired Valley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43850DF92C90559A0001C470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43850DFB2C90559A0001C470 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43850DFD2C90559A0001C470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43850E022C90559C0001C470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43850E052C90559C0001C470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43850E072C90559C0001C470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43850E0C2C90559D0001C470 /* Hired ValleyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hired ValleyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43850E102C90559D0001C470 /* Hired_ValleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hired_ValleyTests.swift; sourceTree = "<group>"; };
+		43850E162C90559D0001C470 /* Hired ValleyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hired ValleyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43850E1A2C90559D0001C470 /* Hired_ValleyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hired_ValleyUITests.swift; sourceTree = "<group>"; };
+		43850E1C2C90559D0001C470 /* Hired_ValleyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hired_ValleyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43850E2B2C9058F00001C470 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		43850E2E2C9068210001C470 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		43850E312C90697C0001C470 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		43850E332C9071140001C470 /* Kontora-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kontora-Regular.otf"; sourceTree = "<group>"; };
+		43850E362C90727A0001C470 /* UIFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFonts.swift; sourceTree = "<group>"; };
+		43850E382C908D670001C470 /* Kontora-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kontora-Extrabold.otf"; sourceTree = "<group>"; };
+		43850E3D2C90972E0001C470 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		43850E3F2C9225880001C470 /* Textfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textfield.swift; sourceTree = "<group>"; };
+		43850E412C922CF40001C470 /* Kontora-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kontora-Medium.otf"; path = "../../../../../Downloads/Kontora-Medium.otf"; sourceTree = "<group>"; };
+		43850E432C9241EA0001C470 /* Kontora-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kontora-Semibold.otf"; path = "../../../../../Downloads/Kontora-Semibold.otf"; sourceTree = "<group>"; };
+		43850E452C931CA30001C470 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Hired Valley/SettingsViewController.swift"; sourceTree = SOURCE_ROOT; };
+		43A73DF42C932111009D48F5 /* HiredValleyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiredValleyViewController.swift; sourceTree = "<group>"; };
+		43A73E322C932E12009D48F5 /* ProfileOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptions.swift; sourceTree = "<group>"; };
+		43A73E352C9337CD009D48F5 /* SelfSizingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingTableView.swift; sourceTree = "<group>"; };
+		43A73E372C93382B009D48F5 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		732145F4C7B34271E0D1DA62 /* Pods_Hired_Valley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hired_Valley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A486CD81D18C05C8353CFFDD /* Pods-Hired Valley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hired Valley.release.xcconfig"; path = "Target Support Files/Pods-Hired Valley/Pods-Hired Valley.release.xcconfig"; sourceTree = "<group>"; };
+		FE7F446732EA150EAE47146E /* Pods-Hired ValleyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hired ValleyTests.release.xcconfig"; path = "Target Support Files/Pods-Hired ValleyTests/Pods-Hired ValleyTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43850DF32C90559A0001C470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ECA0009F787B2F03C3A9DE /* Pods_Hired_Valley.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43850E092C90559D0001C470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43646556DBFF63DD8940412C /* Pods_Hired_ValleyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43850E132C90559D0001C470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A223899BACFD7BC7E345D /* Pods_Hired_Valley_Hired_ValleyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191982E292AD40A15C404775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732145F4C7B34271E0D1DA62 /* Pods_Hired_Valley.framework */,
+				056D9C120CDC431489EE4111 /* Pods_Hired_Valley_Hired_ValleyUITests.framework */,
+				2FE48BB6C40FBC8C899382AE /* Pods_Hired_ValleyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43850DED2C90559A0001C470 = {
+			isa = PBXGroup;
+			children = (
+				43850DF82C90559A0001C470 /* Hired Valley */,
+				43850E0F2C90559D0001C470 /* Hired ValleyTests */,
+				43850E192C90559D0001C470 /* Hired ValleyUITests */,
+				43850DF72C90559A0001C470 /* Products */,
+				B58A9725A01C876B173AA080 /* Pods */,
+				191982E292AD40A15C404775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43850DF72C90559A0001C470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43850DF62C90559A0001C470 /* Hired Valley.app */,
+				43850E0C2C90559D0001C470 /* Hired ValleyTests.xctest */,
+				43850E162C90559D0001C470 /* Hired ValleyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43850DF82C90559A0001C470 /* Hired Valley */ = {
+			isa = PBXGroup;
+			children = (
+				43A73E342C9337B5009D48F5 /* Components */,
+				43850E342C9071210001C470 /* Fonts */,
+				43850E302C9069520001C470 /* ViewControllers */,
+				43850E2A2C9058E00001C470 /* Extension */,
+				43850E292C9057910001C470 /* Application */,
+				43850DFD2C90559A0001C470 /* ViewController.swift */,
+				43850E022C90559C0001C470 /* Assets.xcassets */,
+				43850E072C90559C0001C470 /* Info.plist */,
+				43A73E322C932E12009D48F5 /* ProfileOptions.swift */,
+			);
+			path = "Hired Valley";
+			sourceTree = "<group>";
+		};
+		43850E0F2C90559D0001C470 /* Hired ValleyTests */ = {
+			isa = PBXGroup;
+			children = (
+				43850E102C90559D0001C470 /* Hired_ValleyTests.swift */,
+			);
+			path = "Hired ValleyTests";
+			sourceTree = "<group>";
+		};
+		43850E192C90559D0001C470 /* Hired ValleyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43850E1A2C90559D0001C470 /* Hired_ValleyUITests.swift */,
+				43850E1C2C90559D0001C470 /* Hired_ValleyUITestsLaunchTests.swift */,
+			);
+			path = "Hired ValleyUITests";
+			sourceTree = "<group>";
+		};
+		43850E292C9057910001C470 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				43850DFB2C90559A0001C470 /* SceneDelegate.swift */,
+				43850DF92C90559A0001C470 /* AppDelegate.swift */,
+				43850E042C90559C0001C470 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		43850E2A2C9058E00001C470 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				43850E2B2C9058F00001C470 /* UIColor.swift */,
+				43850E2E2C9068210001C470 /* UIView.swift */,
+				43850E362C90727A0001C470 /* UIFonts.swift */,
+				43850E3F2C9225880001C470 /* Textfield.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		43850E302C9069520001C470 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				43850E312C90697C0001C470 /* OnboardingViewController.swift */,
+				43850E3D2C90972E0001C470 /* RegisterViewController.swift */,
+				43850E452C931CA30001C470 /* SettingsViewController.swift */,
+				43A73DF42C932111009D48F5 /* HiredValleyViewController.swift */,
+				43A73E372C93382B009D48F5 /* ProfileTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		43850E342C9071210001C470 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43850E432C9241EA0001C470 /* Kontora-Semibold.otf */,
+				43850E332C9071140001C470 /* Kontora-Regular.otf */,
+				43850E412C922CF40001C470 /* Kontora-Medium.otf */,
+				43850E382C908D670001C470 /* Kontora-Extrabold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		43A73E342C9337B5009D48F5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				43A73E352C9337CD009D48F5 /* SelfSizingTableView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B58A9725A01C876B173AA080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07C33FBFBA5A12427A6F76C8 /* Pods-Hired Valley.debug.xcconfig */,
+				A486CD81D18C05C8353CFFDD /* Pods-Hired Valley.release.xcconfig */,
+				21437C9F3A4A3AB3100CFBB3 /* Pods-Hired Valley-Hired ValleyUITests.debug.xcconfig */,
+				2EDF80B0231DA19C775682DC /* Pods-Hired Valley-Hired ValleyUITests.release.xcconfig */,
+				3EC1157B26721FEEDA45BEEC /* Pods-Hired ValleyTests.debug.xcconfig */,
+				FE7F446732EA150EAE47146E /* Pods-Hired ValleyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43850DF52C90559A0001C470 /* Hired Valley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43850E202C90559D0001C470 /* Build configuration list for PBXNativeTarget "Hired Valley" */;
+			buildPhases = (
+				628F6F12A9D119561B805353 /* [CP] Check Pods Manifest.lock */,
+				43850DF22C90559A0001C470 /* Sources */,
+				43850DF32C90559A0001C470 /* Frameworks */,
+				43850DF42C90559A0001C470 /* Resources */,
+				264996C951E436FBA8B03CD3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hired Valley";
+			productName = "Hired Valley";
+			productReference = 43850DF62C90559A0001C470 /* Hired Valley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43850E0B2C90559D0001C470 /* Hired ValleyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43850E232C90559D0001C470 /* Build configuration list for PBXNativeTarget "Hired ValleyTests" */;
+			buildPhases = (
+				292663418004E21E4E9A46D7 /* [CP] Check Pods Manifest.lock */,
+				43850E082C90559D0001C470 /* Sources */,
+				43850E092C90559D0001C470 /* Frameworks */,
+				43850E0A2C90559D0001C470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43850E0E2C90559D0001C470 /* PBXTargetDependency */,
+			);
+			name = "Hired ValleyTests";
+			productName = "Hired ValleyTests";
+			productReference = 43850E0C2C90559D0001C470 /* Hired ValleyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43850E152C90559D0001C470 /* Hired ValleyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43850E262C90559D0001C470 /* Build configuration list for PBXNativeTarget "Hired ValleyUITests" */;
+			buildPhases = (
+				9C24E7053BA0C703910FE236 /* [CP] Check Pods Manifest.lock */,
+				43850E122C90559D0001C470 /* Sources */,
+				43850E132C90559D0001C470 /* Frameworks */,
+				43850E142C90559D0001C470 /* Resources */,
+				BC3CE8965A733DDC8220F355 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43850E182C90559D0001C470 /* PBXTargetDependency */,
+			);
+			name = "Hired ValleyUITests";
+			productName = "Hired ValleyUITests";
+			productReference = 43850E162C90559D0001C470 /* Hired ValleyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43850DEE2C90559A0001C470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					43850DF52C90559A0001C470 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					43850E0B2C90559D0001C470 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43850DF52C90559A0001C470;
+					};
+					43850E152C90559D0001C470 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43850DF52C90559A0001C470;
+					};
+				};
+			};
+			buildConfigurationList = 43850DF12C90559A0001C470 /* Build configuration list for PBXProject "Hired Valley" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43850DED2C90559A0001C470;
+			productRefGroup = 43850DF72C90559A0001C470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43850DF52C90559A0001C470 /* Hired Valley */,
+				43850E0B2C90559D0001C470 /* Hired ValleyTests */,
+				43850E152C90559D0001C470 /* Hired ValleyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43850DF42C90559A0001C470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43850E3C2C9092DA0001C470 /* Kontora-Extrabold.otf in Resources */,
+				43850E422C922CF40001C470 /* Kontora-Medium.otf in Resources */,
+				43850E062C90559C0001C470 /* LaunchScreen.storyboard in Resources */,
+				43850E392C9092C20001C470 /* Kontora-Regular.otf in Resources */,
+				43850E032C90559C0001C470 /* Assets.xcassets in Resources */,
+				43850E442C9241EA0001C470 /* Kontora-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43850E0A2C90559D0001C470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43850E142C90559D0001C470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		264996C951E436FBA8B03CD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hired Valley/Pods-Hired Valley-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hired Valley/Pods-Hired Valley-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hired Valley/Pods-Hired Valley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292663418004E21E4E9A46D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hired ValleyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628F6F12A9D119561B805353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hired Valley-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C24E7053BA0C703910FE236 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hired Valley-Hired ValleyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3CE8965A733DDC8220F355 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hired Valley-Hired ValleyUITests/Pods-Hired Valley-Hired ValleyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hired Valley-Hired ValleyUITests/Pods-Hired Valley-Hired ValleyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hired Valley-Hired ValleyUITests/Pods-Hired Valley-Hired ValleyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43850DF22C90559A0001C470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A73E332C932E12009D48F5 /* ProfileOptions.swift in Sources */,
+				43A73E382C93382B009D48F5 /* ProfileTableViewCell.swift in Sources */,
+				43850E2F2C9068210001C470 /* UIView.swift in Sources */,
+				43850E322C90697C0001C470 /* OnboardingViewController.swift in Sources */,
+				43A73E362C9337CD009D48F5 /* SelfSizingTableView.swift in Sources */,
+				43850DFE2C90559A0001C470 /* ViewController.swift in Sources */,
+				43850E462C931CA40001C470 /* SettingsViewController.swift in Sources */,
+				43A73DF52C932111009D48F5 /* HiredValleyViewController.swift in Sources */,
+				43850E3E2C90972E0001C470 /* RegisterViewController.swift in Sources */,
+				43850E402C9225880001C470 /* Textfield.swift in Sources */,
+				43850E2C2C9058F00001C470 /* UIColor.swift in Sources */,
+				43850E372C90727A0001C470 /* UIFonts.swift in Sources */,
+				43850DFA2C90559A0001C470 /* AppDelegate.swift in Sources */,
+				43850DFC2C90559A0001C470 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43850E082C90559D0001C470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43850E112C90559D0001C470 /* Hired_ValleyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43850E122C90559D0001C470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43850E1D2C90559D0001C470 /* Hired_ValleyUITestsLaunchTests.swift in Sources */,
+				43850E1B2C90559D0001C470 /* Hired_ValleyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43850E0E2C90559D0001C470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43850DF52C90559A0001C470 /* Hired Valley */;
+			targetProxy = 43850E0D2C90559D0001C470 /* PBXContainerItemProxy */;
+		};
+		43850E182C90559D0001C470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43850DF52C90559A0001C470 /* Hired Valley */;
+			targetProxy = 43850E172C90559D0001C470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43850E042C90559C0001C470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43850E052C90559C0001C470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43850E1E2C90559D0001C470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43850E1F2C90559D0001C470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43850E212C90559D0001C470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C33FBFBA5A12427A6F76C8 /* Pods-Hired Valley.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G9P37MK73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hired Valley/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeldana.Hired-Valley";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43850E222C90559D0001C470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A486CD81D18C05C8353CFFDD /* Pods-Hired Valley.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G9P37MK73;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hired Valley/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeldana.Hired-Valley";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43850E242C90559D0001C470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC1157B26721FEEDA45BEEC /* Pods-Hired ValleyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeldana.Hired-ValleyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hired Valley.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hired Valley";
+			};
+			name = Debug;
+		};
+		43850E252C90559D0001C470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7F446732EA150EAE47146E /* Pods-Hired ValleyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeldana.Hired-ValleyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hired Valley.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hired Valley";
+			};
+			name = Release;
+		};
+		43850E272C90559D0001C470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21437C9F3A4A3AB3100CFBB3 /* Pods-Hired Valley-Hired ValleyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeldana.Hired-ValleyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hired Valley";
+			};
+			name = Debug;
+		};
+		43850E282C90559D0001C470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDF80B0231DA19C775682DC /* Pods-Hired Valley-Hired ValleyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yeldana.Hired-ValleyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hired Valley";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43850DF12C90559A0001C470 /* Build configuration list for PBXProject "Hired Valley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43850E1E2C90559D0001C470 /* Debug */,
+				43850E1F2C90559D0001C470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43850E202C90559D0001C470 /* Build configuration list for PBXNativeTarget "Hired Valley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43850E212C90559D0001C470 /* Debug */,
+				43850E222C90559D0001C470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43850E232C90559D0001C470 /* Build configuration list for PBXNativeTarget "Hired ValleyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43850E242C90559D0001C470 /* Debug */,
+				43850E252C90559D0001C470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43850E262C90559D0001C470 /* Build configuration list for PBXNativeTarget "Hired ValleyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43850E272C90559D0001C470 /* Debug */,
+				43850E282C90559D0001C470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43850DEE2C90559A0001C470 /* Project object */;
+}
